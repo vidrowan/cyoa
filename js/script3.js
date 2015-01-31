@@ -113,7 +113,7 @@
             },
             create_back_button_elem : function() {
                 back_button_elem = $('<li id="cyoa_back_button"' + 
-                    ' class="disabled generic" value="back" title="Back">Back</li>'
+                    ' class="disabled generic" value="back">Back</li>'
                 );
                 back_button_elem.click(function(){that.back();});
                 back_button_elem.addClass('cyoa_top_controls');
@@ -121,7 +121,7 @@
             },
             create_reset_button_elem : function() {
                 reset_button_elem = $('<li id="cyoa_reset_button"' + 
-                    ' class="disabled generic" value="reset" title="Reset">Reset</li>'
+                    ' class="disabled generic" value="reset">Reset</li>'
                 );
                 reset_button_elem.click(function(){that.reset();});
                 reset_button_elem.addClass('cyoa_top_controls');

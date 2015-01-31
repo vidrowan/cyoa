@@ -1,0 +1,8 @@
+/*hover state for the buttons - add your brand here! */
+#cyoa_container li:hover {
+  background:yellow;
+}
+
+#cyoa_container .cyoa_controls li:hover {
+  background:#4F4F4F;
+}

@@ -1,0 +1,90 @@
+.cyoa_wrapper{
+	background:transparent;
+	border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+} 
+.cyoa_content {
+		background-color:transparent;
+    /*color: #333333;*/
+}
+.cyoa_controls {
+    clear: both;
+    cursor: pointer;
+    display: table;
+    list-style-type: none;
+    margin: 13px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 632px;
+}
+.cyoa_controls li {
+    float: left;
+    /*font-family: verdana;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 276px;*/
+		background-color:transparent;
+}
+.cyoa_controls li span {
+    background: -moz-linear-gradient(center top , #3e779d, #65a9d7) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border-top: 1px solid #96d1f8;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+    color: white;
+    font-size: 14px;
+    margin:.25em .5em;
+		padding: 6.5px 13px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    vertical-align: middle;
+}
+
+#cyoa_container .cyoa_controls {
+ background: none;
+}
+.cyoa_controls li span:hover {
+    background: none repeat scroll 0 0 #28597a;
+    border-top-color: #28597a;
+    color: #ccc;
+}
+
+.cyoa_controls li span:active {
+    background: none repeat scroll 0 0 #1b435e;
+    border-top-color: #1b435e;
+}
+.cyoa_top_controls {
+    border: medium none;
+    height: 22px;
+    margin: 4px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 22px;
+}
+
+.cyoa_controls.split li#cyoa_back_button, .cyoa_controls li {
+	border:none;
+}
+#cyoa_container .cyoa_controls li:hover {
+	background-color:reset;
+}
+#cyoa_reset_button, #cyoa_reset_button:hover {
+    background: url("img/photoessay_control_sprite_20110714.png") no-repeat scroll 0 -4px transparent;
+}
+#cyoa_back_button, #cyoa_back_button:hover {
+    background: url("img/photoessay_control_sprite_20110714.png") no-repeat scroll -25px -4px transparent;
+}
+
+.cyoa_container {
+    border: none;
+		clear: both;
+    margin: 0;
+    padding: 0;
+    width: 632px;
+}
+#start_controls {
+}
+
+.cyoa_controls.split li.generic {
+    float: left; 
+}
